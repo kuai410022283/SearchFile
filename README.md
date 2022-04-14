@@ -26,7 +26,21 @@ dir默认是“\” 一般默认为根目录，当然如果要指定目录，也
 name=true  也可以等于已知的文件名，当然一定要完整的文件名称，包括文件扩展名在内。
 
 如图所示：
+图1
 ![image](https://user-images.githubusercontent.com/66707076/163385403-b0990846-d1a1-480d-9883-99a8ba0d37d1.png)
 
+图2
 ![image](https://user-images.githubusercontent.com/66707076/163385515-ea6f3407-be23-42ec-bc15-4616614410e2.png)
+
+*$_GET['value'];在value参数中是可以单独显示json输出对象中的某个值，也就是["name","extension","Size","Url","Create Date"]
+https://xxx.xxxx.com/SearchFile.php?dir=image&name=xxx.png&value=Url 
+这样就会只显示出Url的值。
+![image](https://user-images.githubusercontent.com/66707076/163386927-dfc34c0d-f7f1-4d56-9b87-1737aa7e54dc.png)
+
+*$_GET['type'];//类型,扩展名.方法与上面的都类似。
+![image](https://user-images.githubusercontent.com/66707076/163387353-f00275d4-05c2-4d2d-b3d5-b278df21d220.png)
+
+更多使用方法和玩法，自己去看源码吧~
+也可以通过以上的源码，更完善一些功能。
+
 
