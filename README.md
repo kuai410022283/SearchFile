@@ -44,6 +44,4 @@ https://xxx.xxxx.com/SearchFile.php?dir=image&name=xxx.png&value=Url
 也可以通过以上的源码，更完善一些功能。
 
 
-我的网站  https://www.laoknas.com
 
-也可访问获取其它API功能信息 https://www.laoknas.com/api
